@@ -2904,8 +2904,32 @@
 		(uuid "fccb4fa1-b536-4633-8cc2-c708d1f58bf7")
 	)
 	(no_connect
+		(at 48.26 35.56)
+		(uuid "57099537-8cf2-447a-b7af-429345c4ad19")
+	)
+	(no_connect
+		(at 48.26 50.8)
+		(uuid "64f44a6d-6669-4fe2-bdc7-8e5ce283e9f8")
+	)
+	(no_connect
+		(at 48.26 38.1)
+		(uuid "6f47842a-c161-45b1-90a7-f87e40e361ea")
+	)
+	(no_connect
+		(at 48.26 30.48)
+		(uuid "7e7b97e6-2d45-4f4b-9f79-cc07160a8576")
+	)
+	(no_connect
 		(at 73.66 144.78)
 		(uuid "9b15de5f-3590-4c87-a912-f32128d641c9")
+	)
+	(no_connect
+		(at 48.26 33.02)
+		(uuid "a314ac5f-244d-4dad-ba7f-2c9423cbebf6")
+	)
+	(no_connect
+		(at 48.26 27.94)
+		(uuid "bbed1d4c-1af3-4ece-9caf-f664e428940f")
 	)
 	(wire
 		(pts
@@ -3377,6 +3401,17 @@
 		)
 		(uuid "fbb40040-8973-461e-b32f-1e9c8f498a2b")
 	)
+	(text "TTL output?\nneeded to pull up, at least on previous board"
+		(exclude_from_sim no)
+		(at 234.95 41.148 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "190ba096-9496-4042-b271-b965334545bf")
+	)
 	(text "Vf = 1 V - 1.5 V\nAssume typ Vf = 1.25 V\ntarget If = 20 mA\nR = (3.3 V - 1.25 V) / 20 mA\n  = 102.5 Ohm ~= 100 Ohm\nIf = 18 mA - 23 mA"
 		(exclude_from_sim no)
 		(at 226.568 150.114 0)
@@ -3451,28 +3486,6 @@
 			(justify left bottom)
 		)
 		(uuid "19ee354e-70db-478e-a48c-7445d36c42d8")
-	)
-	(label "LS_E"
-		(at 48.26 38.1 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "233bea2f-1eb2-4ece-90c7-7d315153b5a5")
-	)
-	(label "LS_A"
-		(at 48.26 27.94 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "245bf87b-b762-480e-9f52-ea72d7b8c3eb")
 	)
 	(label "GND"
 		(at 38.1 78.74 0)
@@ -3562,17 +3575,6 @@
 		)
 		(uuid "450e1d9b-7991-418a-9a28-c721369b60b6")
 	)
-	(label "HS_I"
-		(at 48.26 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4cad1b18-0e1e-4ae2-b796-8273183ad01f")
-	)
 	(label "IR_TX"
 		(at 228.6 127 0)
 		(fields_autoplaced yes)
@@ -3605,17 +3607,6 @@
 			(justify left bottom)
 		)
 		(uuid "616235a2-9673-4504-9931-a45546add15b")
-	)
-	(label "LS_C"
-		(at 48.26 33.02 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "675b71fa-df01-4988-ae26-05a19b60397d")
 	)
 	(label "HS_G"
 		(at 48.26 45.72 0)
@@ -3661,17 +3652,6 @@
 		)
 		(uuid "8fdbd0b9-5efd-4154-a1d5-11a46b8f5e19")
 	)
-	(label "LS_D"
-		(at 48.26 35.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a03ee68f-ef98-448d-8965-a12833003ecc")
-	)
 	(label "HEXP_DET"
 		(at 22.86 53.34 180)
 		(fields_autoplaced yes)
@@ -3704,17 +3684,6 @@
 			(justify right bottom)
 		)
 		(uuid "aad245b4-d7b6-4573-b4e5-29ec41d3f750")
-	)
-	(label "LS_B"
-		(at 48.26 30.48 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0008582-f664-4e03-9a65-312d06d1ecf0")
 	)
 	(label "IR_TX"
 		(at 177.8 127 0)
@@ -3822,7 +3791,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 134.62 91.44 0)
 			(effects
 				(font
@@ -4413,7 +4382,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d319122-b833-4d5c-a800-617327ace25f")
 		(property "Reference" "TP1"
-			(at 27.94 173.2279 0)
+			(at 27.94 174.4979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,9 +4397,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 30.48 177.8 0)
 			(effects
 				(font
@@ -5048,7 +5018,7 @@
 		(fields_autoplaced yes)
 		(uuid "3b1146b3-afad-4870-ae41-753ab3ddd5f4")
 		(property "Reference" "TP2"
-			(at 27.94 185.9279 0)
+			(at 27.94 187.1979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5063,9 +5033,10 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 30.48 190.5 0)
 			(effects
 				(font
@@ -5819,7 +5790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 134.62 106.68 0)
 			(effects
 				(font
@@ -6072,7 +6043,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 67.31 43.18 0)
 			(effects
 				(font
@@ -6476,7 +6447,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 67.31 48.26 0)
 			(effects
 				(font
@@ -6547,7 +6518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 134.62 96.52 0)
 			(effects
 				(font
@@ -7285,7 +7256,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 134.62 109.22 0)
 			(effects
 				(font
@@ -7419,7 +7390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 134.62 73.66 0)
 			(effects
 				(font
@@ -7487,7 +7458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 134.62 86.36 0)
 			(effects
 				(font
@@ -7603,7 +7574,7 @@
 		(fields_autoplaced yes)
 		(uuid "dee18c11-0651-4044-b983-56ba67645aff")
 		(property "Reference" "JP1"
-			(at 34.29 72.39 0)
+			(at 34.29 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7616,6 +7587,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
@@ -8105,7 +8077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 134.62 83.82 0)
 			(effects
 				(font
@@ -8170,7 +8142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 67.31 45.72 0)
 			(effects
 				(font
@@ -8317,7 +8289,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 134.62 81.28 0)
 			(effects
 				(font
