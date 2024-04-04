@@ -3781,7 +3781,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Small"
+		(property "Value" "PA8"
 			(at 130.81 92.7099 0)
 			(effects
 				(font
@@ -4061,7 +4061,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "PY32F002AW15U"
 			(at 116.4941 67.31 0)
 			(effects
 				(font
@@ -4390,7 +4390,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "SCL"
 			(at 27.94 175.7679 0)
 			(effects
 				(font
@@ -5026,7 +5026,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "SDA"
 			(at 27.94 188.4679 0)
 			(effects
 				(font
@@ -5780,7 +5780,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Small"
+		(property "Value" "PB0"
 			(at 130.81 107.9499 0)
 			(effects
 				(font
@@ -5948,6 +5948,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 0 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 0 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "e850b3b1-25f1-41bc-9dbc-94ccdca27b7d")
 		)
@@ -6034,7 +6052,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
+		(property "Value" "SWCLK"
 			(at 67.31 39.37 0)
 			(effects
 				(font
@@ -6438,7 +6456,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
+		(property "Value" "~{RST}"
 			(at 67.31 44.45 0)
 			(effects
 				(font
@@ -6508,7 +6526,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Small"
+		(property "Value" "PA12"
 			(at 130.81 97.7899 0)
 			(effects
 				(font
@@ -7246,7 +7264,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Small"
+		(property "Value" "PB1"
 			(at 130.81 110.4899 0)
 			(effects
 				(font
@@ -7380,7 +7398,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Small"
+		(property "Value" "PA1"
 			(at 130.81 74.9299 0)
 			(effects
 				(font
@@ -7448,7 +7466,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Small"
+		(property "Value" "PA6"
 			(at 130.81 87.6299 0)
 			(effects
 				(font
@@ -8067,7 +8085,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Small"
+		(property "Value" "PA5"
 			(at 130.81 85.0899 0)
 			(effects
 				(font
@@ -8133,7 +8151,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
+		(property "Value" "SWDIO"
 			(at 67.31 41.91 0)
 			(effects
 				(font
@@ -8203,7 +8221,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "IRM-H638T/TR2"
 			(at 208.28 39.37 0)
 			(effects
 				(font
@@ -8279,7 +8297,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint_Small"
+		(property "Value" "PA4"
 			(at 130.81 82.5499 0)
 			(effects
 				(font
