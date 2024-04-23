@@ -8411,7 +8411,7 @@
 		(path "/db84e95d-04e8-4761-9a7c-7e04934a8a07")
 		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -8588,7 +8588,7 @@
 		(path "/713ce3db-ff96-4557-b1e9-3ff833d5bf2a")
 		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -8765,7 +8765,7 @@
 		(path "/3b1146b3-afad-4870-ae41-753ab3ddd5f4")
 		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.2 1.2)
 			(end -1.2 1.2)
@@ -8942,7 +8942,7 @@
 		(path "/fbfe7bcb-47db-4ffc-987b-80004fc40908")
 		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -9119,7 +9119,7 @@
 		(path "/001547a1-1705-45b5-9cce-8ad785774eb3")
 		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -9296,7 +9296,7 @@
 		(path "/d562bd76-e720-417b-9e54-d2f918e6dc61")
 		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -9757,7 +9757,7 @@
 		(path "/c77f2315-75b0-4125-ad86-0ba891fccf11")
 		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -9934,7 +9934,7 @@
 		(path "/f3ea3f1a-bd45-4402-aa50-656a1cb6fb15")
 		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -10403,7 +10403,7 @@
 		(path "/95365fc9-f0cb-43ee-a5c3-3498c4edf411")
 		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -10580,7 +10580,7 @@
 		(path "/1d319122-b833-4d5c-a800-617327ace25f")
 		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.2 1.2)
 			(end -1.2 1.2)
