@@ -2341,7 +2341,7 @@
 		(path "/7009656d-6451-4e71-a2f3-6c614c4ec12e")
 		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -7755,7 +7755,7 @@
 		(path "/43383a7e-1c06-47b6-8849-0ab4cb8a431e")
 		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.2 0)
@@ -9474,7 +9474,7 @@
 		(path "/dee18c11-0651-4044-b983-56ba67645aff")
 		(sheetname "Root")
 		(sheetfile "hexpansion.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(net_tie_pad_groups "1, 2")
 		(fp_poly
 			(pts
